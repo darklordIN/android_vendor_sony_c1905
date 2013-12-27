@@ -170,4 +170,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/c1905/proprietary/bin/ta_qmi_service:bin/ta_qmi_service \
     vendor/sony/c1905/proprietary/bin/mm-qcamera-daemon:bin/mm-qcamera-daemon \
     vendor/sony/c1905/proprietary/bin/ks:bin/ks \
-    vendor/sony/c1905/proprietary/bin/rmt_storage:bin/rmt_storage
+    vendor/sony/c1905/proprietary/bin/rmt_storage:bin/rmt_storage \
+    vendor/sony/c1905/proprietary/bin/led_deamon:bin/led_deamon
