@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/c1905/proprietary/lib/libmmcamera_image_stab.so:lib/libmmcamera_image_stab.so \
     vendor/sony/c1905/proprietary/lib/libcsd-client.so:lib/libcsd-client.so \
     vendor/sony/c1905/proprietary/lib/hw/camera.msm8960.so:lib/hw/vendor-camera.msm8960.so \
+    vendor/sony/c1905/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/c1905/proprietary/lib/hw/sensors.msm8960.so:lib/hw/sensors.msm8960.so \
     vendor/sony/c1905/proprietary/lib/hw/nfc.msm8960.so:lib/hw/nfc.msm8960.so \
     vendor/sony/c1905/proprietary/lib/hw/lights.msm8960.so:lib/hw/vendor-lights.default.so \
@@ -91,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/c1905/proprietary/lib/libmmcamera_hdr_lib.so:lib/libmmcamera_hdr_lib.so \
     vendor/sony/c1905/proprietary/lib/libmm-color-convertor.so:lib/libmm-color-convertor.so \
     vendor/sony/c1905/proprietary/lib/libgemini.so:lib/libgemini.so \
+    vendor/sony/c1905/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/c1905/proprietary/lib/libril.so:lib/libril.so \
     vendor/sony/c1905/proprietary/lib/libril-qcril-hook-oem.so:lib/libril-qcril-hook-oem.so \
     vendor/sony/c1905/proprietary/lib/libqmi_csi.so:lib/libqmi_csi.so \
@@ -112,6 +114,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/c1905/proprietary/lib/libmmcamera_tintless_algo.so:lib/libmmcamera_tintless_algo.so \
     vendor/sony/c1905/proprietary/lib/libgsl.so:lib/libgsl.so \
     vendor/sony/c1905/proprietary/lib/libimage-omx-common.so:lib/libimage-omx-common.so \
+    vendor/sony/c1905/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/sony/c1905/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/c1905/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/c1905/proprietary/lib/libmercury.so:lib/libmercury.so \
     vendor/sony/c1905/proprietary/lib/libmm-abl.so:lib/libmm-abl.so \
     vendor/sony/c1905/proprietary/lib/librmp.so:lib/librmp.so \
